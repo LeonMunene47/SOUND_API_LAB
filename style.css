@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(255, 3, 200);
+}
+input, audio {
+    display: block;
+    margin: 10px auto;
+    background-color: blue;
+    width: 500px;
+    text-justify: auto;
+  }
+input{
+    background-color: yellow;
+}

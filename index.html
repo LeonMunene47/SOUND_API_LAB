@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sound API Lab</title>
+
+    <!-- defer tells the browser to wait until the DOM is parsed before running the script -->
+    <script src="audio_control.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body align="center">
+    <h1>150767</h1>
+    <h2>SOUND API LAB</h2>
+
+    <input type="file" id="audio_input" accept="audio/*, .mp3"> 
+
+    <!--
+        i used the standard html audio element which has features like:
+            Play and Pause button
+            volume control using a slider
+            mute/unmute
+            playback speed control
+            Display current playback time
+            autoplay
+            download option
+    -->
+    <audio id="audio_player" controls autoplay>
+        Your browser does not support the audio element.
+    </audio>
+
+        
+</body>
+</html>
